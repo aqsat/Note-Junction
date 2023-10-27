@@ -7,10 +7,6 @@
 - [Features](#features)
 - [Entity-Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
 - [Database Schema](#database-schema)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -46,6 +42,8 @@ userid (Foreign Key): An integer that references the userid in the "User" table,
 
 
 SQL code for creating the tables and any important constraints:
+
+```sql
 CREATE DATABASE NoteJunction;
 
 use NoteJunction;
