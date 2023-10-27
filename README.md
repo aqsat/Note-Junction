@@ -5,7 +5,7 @@
 
 - [Overview](#overview)
 - [Features](#features)
-- [Entity-Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
+- [Entity-Relationship Diagram](#entity-relationship-diagram-erd)
 - [Relations](#Relations)
 
 
@@ -18,13 +18,13 @@
 - User registration and login
 - Create and manage notes
 
-## Entity-Relationship Diagram (ERD)
+## Entity-Relationship Diagram
 
 ![ERD](https://github.com/aqsat/WebDev/blob/main/ER%20Diagram.PNG)
 
 Entity-Relationship Diagram (ERD) to help users understand the database structure.
 
-## Relations (RD)
+## Relations
 
 ![RD](https://github.com/aqsat/Note-Junction/blob/main/Relation%20Diagram.PNG))
 
