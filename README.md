@@ -6,7 +6,8 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Entity-Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
-- [Database Schema](#database-schema)
+- [Relations] (#Relation)
+
 
 ## Overview
 
@@ -23,22 +24,7 @@
 
 Entity-Relationship Diagram (ERD) to help users understand the database structure.
 
-## Database Schema
-
-User Schema:
-
-userid (Primary Key): A unique integer identifying each user.
-firstname: A field to store the user's first name.
-lastname: A field to store the user's last name.
-username: A field to store the user's chosen username.
-password: A field to store the user's password.
-
-
-Note Schema:
-
-noteid (Primary Key): An integer that serves as a unique identifier for each note.
-content: A text field used to capture the content or description of each note.
-userid (Foreign Key): An integer that references the userid in the "User" table, establishing a relationship between users and their respective notes. 
+##Relation
 
 
 SQL code for creating the tables and any important constraints:
