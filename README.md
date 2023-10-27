@@ -6,14 +6,16 @@
 - [Entity-Relationship Diagram](#entity-relationship-diagram)
 - [Relations](#Relations)
 
-
 ## Description
+
 Note Junction is a web development project, offering a note-taking application for seamless organization and management of notes. Note Junction provides a versatile platform for capturing, storing, and accessing your thoughts, ideas, tasks, and important information.It brings to you a suite of features that includes:"
 
-###User Sign-Up and Sign-In:
+**User Sign-Up and Sign-In:**
 Effortlessly handle user registration and login.
-###Notes Creation and Administration:
+
+**Notes Creation and Administration:**
 Smoothly craft and oversee your notes.
+
 
 ## Entity-Relationship Diagram
 
