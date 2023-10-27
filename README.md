@@ -24,7 +24,7 @@ List the key features of your project. For example:
 
 ## Entity-Relationship Diagram (ERD)
 
-![ERD](images/image1)
+![ERD](https://github.com/aqsat/WebDev/blob/main/ER%20Diagram.PNG)
 
 Include an image of your Entity-Relationship Diagram (ERD) to help users understand the database structure.
 
