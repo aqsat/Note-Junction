@@ -24,7 +24,9 @@
 
 Entity-Relationship Diagram (ERD) to help users understand the database structure.
 
-## Relations
+## Relations (RD)
+
+![RD](https://github.com/aqsat/WebDev/blob/main/RelationDiagram.PNG)
 
 
 SQL code for creating the tables and any important constraints:
