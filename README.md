@@ -45,9 +45,7 @@ userid (Foreign Key): An integer that references the userid in the "User" table,
 SQL code for creating the tables and any important constraints:
 
 ```sql
-CREATE DATABASE NoteJunction;
 
-use NoteJunction;
 CREATE TABLE User (
     userid INT AUTO_INCREMENT PRIMARY KEY,
     firstname VARCHAR(255) NOT NULL,
