@@ -10,7 +10,7 @@
 
 ## Overview
 
-"Note Junction is a web development project, offering a note-taking application for seamless organization and management of notes."
+"Note Junction is a web development project, offering a note-taking application for seamless organization and management of notes. Note Junction provides a versatile platform for capturing, storing, and accessing your thoughts, ideas, tasks, and important information."
 
 ## Features
 
