@@ -24,7 +24,7 @@
 
 Entity-Relationship Diagram (ERD) to help users understand the database structure.
 
-##Relation
+## Relation
 
 
 SQL code for creating the tables and any important constraints:
