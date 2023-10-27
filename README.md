@@ -36,6 +36,7 @@ password: A field to store the user's password.
 
 
 Note Table Schema:
+
 noteid (Primary Key): An integer that serves as a unique identifier for each note.
 content: A text field used to capture the content or description of each note.
 userid (Foreign Key): An integer that references the userid in the "User" table, establishing a relationship between users and their respective notes. 
