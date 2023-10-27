@@ -22,12 +22,9 @@
 
 ![ERD](https://github.com/aqsat/WebDev/blob/main/ER%20Diagram.PNG)
 
-Entity-Relationship Diagram (ERD) to help users understand the database structure.
-
 ## Relations
 
-![RD](https://github.com/aqsat/Note-Junction/blob/main/Relation%20Diagram.PNG))
-
+![RD](https://github.com/aqsat/Note-Junction/blob/main/Relation%20Diagram.PNG)) 
 
 SQL code for creating the tables and any important constraints:
 
