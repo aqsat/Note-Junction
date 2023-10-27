@@ -6,7 +6,7 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Entity-Relationship Diagram (ERD)](#entity-relationship-diagram-erd)
-- [Relations](#Relation)
+- [Relations](#Relations)
 
 
 ## Overview
