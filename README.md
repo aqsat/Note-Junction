@@ -14,7 +14,6 @@
 
 ## Features
 
-List the key features of your project. For example:
 - User registration and login
 - Create and manage notes
 
