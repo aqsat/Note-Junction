@@ -73,7 +73,7 @@ input[type="password"]:focus {
     border: 2px solid #283105;
 }
 
-input[type="button"] {
+input[type="submit"] {
     background-color: rgb(135, 177, 20);
     color: #fff;
     padding: 10px 20px;
@@ -84,7 +84,7 @@ input[type="button"] {
 }
 
 
-input[type="button"]:hover {
+input[type="submit"]:hover {
     background-color: #283105;
 }
 
@@ -181,7 +181,7 @@ textarea {
 
 
 
-input[type="button"]:hover {
+input[type="submit"]:hover {
     background-color: #283105;
 } 
 

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
 
     <link rel="stylesheet" type="text/css" href="Style.css">
     <title>Login page</title>
@@ -13,7 +14,8 @@
     <h1>NOTE JUNCTION <img src='Images/image6.jpg' alt="This is Application logo"></h1>
     <p>Want To Enter The Junction? Login Now</p>
     
-    <form>
+    <form id="loginForm">
+
         <div>
             <label for="user_name" >User Name</label>
             <input type="text" name="user_name" id="user_name" required>
@@ -23,7 +25,7 @@
             <input type="password" name="password" id="password" required>
         </div>
         <div>
-            <input type="button" value="Login">
+            <input type="submit" value="Login">
         </div>
     </form>
 
@@ -35,6 +37,6 @@
         </ul>
     </nav>
 
-    
+    <script src="user.js"></script>   
 </body>
 </html>
