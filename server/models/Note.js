@@ -33,13 +33,13 @@ async function getNoteById(noteid) {
 }
 
 //  get all notes by user ID
-/*async function getAllNotesByUserId(userId) {
+async function getAllNotesByUserId(userId) {
   const sql = 'SELECT * FROM Note WHERE userid = ?';
   const values = [userId];
   const result = await con.query(sql, values);
   console.log(result); 
   return result;
-}*/
+}
 
 
 // Update a note by ID
@@ -63,4 +63,4 @@ async function deleteNoteById(noteid) {
   await con.query(sql);
 }
 
-module.exports = { createNote, getNoteById,  updateNoteById, deleteNoteById , /* getAllNotesByUserId*/};
+module.exports = { createNote, getNoteById,  updateNoteById, deleteNoteById , getAllNotesByUserId};

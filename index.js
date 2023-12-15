@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const path = require('path');
 
 app.use(express.json());
 
@@ -15,10 +16,13 @@ app.use(function(req, res, next) {
   next();
 });
 
+app.use(express.static(path.join(__dirname, 'public')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname + "/public/Register.html")))
+
 app.use('/users', userRoutes)
 app.use('/notes', noteRoutes);
 // app.use for routes above
 
 const PORT = process.env.PORT || 3000
-
+  
 app.listen(PORT, () => console.log(`Server started on PORT ${PORT}!!!`))

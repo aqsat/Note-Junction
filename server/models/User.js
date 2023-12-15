@@ -18,7 +18,7 @@ async function createTable() {
 createTable();
 
 async function login(user) {
-  let userResult = await getUser(user.username);
+  let userResult = await getUser(user.user_name);
   if (!userResult[0]) throw Error("Username not found!!");
   if (userResult[0].password !== user.password) throw Error("Password Incorrect!!");
   return userResult[0];
@@ -26,16 +26,16 @@ async function login(user) {
 
 // Register (Create) New User
 async function register(user) {
-  let userResult = await getUser(user.username);
+  let userResult = await getUser(user.user_name);
   if (userResult.length > 0) throw Error("Username already in use!!");
 
   let sql = `
     INSERT INTO User(firstname, lastname, username, password)
-    VALUES("${user.firstname}", "${user.lastname}", "${user.username}", "${user.password}")
+    VALUES("${user.first_name}", "${user.last_name}", "${user.user_name}", "${user.password}")
   `;
 
   await con.query(sql);
-  const newUser = await getUser(user.username);
+  const newUser = await getUser(user.user_name);
   return newUser[0];
 }
 

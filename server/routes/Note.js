@@ -1,5 +1,5 @@
 const express = require("express");
-const Note = require("../models/note");
+const Note = require("../models/Note");
 const router = express.Router();
 
 router
@@ -7,11 +7,12 @@ router
   .post('/postnotes', async (req, res) => {
     try {
       await Note.createNote(req.body);
-      res.send({ success: "Note created successfully!" });
+      res.status(201).send({ success: "Note created successfully!" });
     } catch (err) {
       res.status(500).send({ message: err.message });
     }
   })
+  
 
   // Read a note by ID route
   .get('/getnotes/:noteid', async (req, res) => {
@@ -24,15 +25,15 @@ router
   })
 
   //Read all notes by  userID route
- /* router.get('/getnotesbyuser/:userid', async (req, res) => {
+  .post('/allnotes', async (req, res) => {
     try {
-      const userId = req.params.userid;
+      const userId = req.body.userid;
       const notes = await Note.getAllNotesByUserId(userId);
-      res.send(notes);
+      res.status(200).json(notes);
     } catch (err) {
       res.status(500).send({ message: err.message });
     }
-  })*/
+  })
 
   
 

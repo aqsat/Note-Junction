@@ -1,21 +1,5 @@
 // const express = require("express")
-// //const User = require("../models/user")
-// //Sconst User = require("../models/User")
-// const { getUsers } = require("../models/user")
 
-// const router = express.Router()
-
-// router.get('/getAllUsers', (req, res) => {
-//   try {
-//     const users =getUsers();
-//     res.send(users)
-//   } catch(err) {
-//     res.status(401).send({message: err.message})
-//   }
-// })
-
-
-// module.exports = router;
 
 const express = require("express")
 const User = require("../models/User")
@@ -23,19 +7,11 @@ const router = express.Router()
 
 router
 
-//get all-users rote
-/*.get('/getAllUsers', async (req, res) => {
-  try {
-    const users = await User.getAllUsers();
-    res.send(users)
-  } catch(err) {
-    res.status(401).send({message: err.message})
-  }
-})*/
 
 
 // login post
 .post('/login', async (req, res) => {
+  console.log(req.body)
   try {
     const user = await User.login(req.body)
     res.send({...user, Password: undefined})
@@ -47,6 +23,7 @@ router
 // register route
 .post('/register', async (req, res) => {
   try {
+    console.log(req.body)
     const user = await User.register(req.body)
     res.send({...user, Password: undefined})
   } catch(err) {
@@ -73,8 +50,6 @@ router
     res.status(401).send({message: err.message})
   }
 })
-
-
 
 
 module.exports = router;

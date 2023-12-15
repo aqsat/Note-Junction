@@ -179,6 +179,21 @@ textarea {
 
 }
 
+#notes {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: auto;
+    padding-bottom: 10%;
+}
+
+.card{
+    width: 600px;
+    background-color: beige;
+    color: black
+}
+
 
 
 input[type="submit"]:hover {
